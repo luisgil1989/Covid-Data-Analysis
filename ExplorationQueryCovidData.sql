@@ -1,5 +1,5 @@
 SELECT*
-FROM CoviData
+FROM CoviData --IMPORTANT NOTE: the cvs file "CoviData" was to large to upload to the repository. The data can be found at https://ourworldindata.org/
 ORDER BY location, date
 
 -- "We need to work with two different tables: CovidDeaths and CovidVaccinations.
