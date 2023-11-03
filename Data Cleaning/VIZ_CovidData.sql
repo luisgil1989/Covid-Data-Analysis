@@ -5,6 +5,19 @@ Queries used for Tableau Project
 */
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-- Important Note:
+
+-- The following python codes executes, clean and exports the data in format tables:
+  
+-- CleanData_Tableu_VIZ_table_1
+-- CleanData_Tableu_VIZ_table_2
+-- CleanData_Tableu_VIZ_table_3
+-- CleanData_Tableu_VIZ_table_4
+  
+-- These tables are vizualized with tableau 
+
+
 -- 1. 
 
 Select SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, SUM(cast(new_deaths as int))/SUM(New_Cases)*100 as DeathPercentage
